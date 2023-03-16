@@ -9,7 +9,7 @@ var Student = {
 };
 
 function setup() {  
-  createCanvas(400, 400);
+  createCanvas(1400, 10);
 
   //mudando o número da matrícula
   console.log(Student.roll_no);
@@ -18,5 +18,5 @@ function setup() {
 }
 
 function draw() {
-  background(220);  
+  background("pink");  
 }
