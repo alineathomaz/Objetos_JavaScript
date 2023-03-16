@@ -11,7 +11,7 @@ var Student = {
 function setup() {  
   createCanvas(1400, 10);
 
-  //mudando o número da matrícula
+  //mudando o número da matrícula (para acessar os dados de um objeto usamos a sintaxe objeto.chave)
   console.log(Student.roll_no);
   Student.roll_no = 45;
   console.log(Student.roll_no);  
